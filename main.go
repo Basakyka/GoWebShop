@@ -19,6 +19,7 @@ func home_page(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		println(err.Error())
 	}
+
 }
 
 func shopping_cart(w http.ResponseWriter, r *http.Request) {
